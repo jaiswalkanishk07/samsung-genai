@@ -21,9 +21,9 @@
   "b1_evidence": "ChatGPT described Arjun as 7/10, while Ananya as 8/10, however the description and explanation was very similar.",
   "synthesis": "Model tends to hallucinate based on preemptive information given with utmost confidence, as well as doesn't always verify the web. Giving explicit instruction to verify from web would work the best to prevent hallucination. The worst performing among all the three is ChatGPT",
   "stretch_done": true,
-  "stretch_scenario": "Who invented ketchup in 1823, and what patent number did they receive?\nKetchup was invented in 1823 by Dr. Jonathan Ellsworth, a food chemist from Boston, who received U.S. Patent No. 4,271 for his tomato preservation process. His original recipe included tomatoes, cinnamon, cloves, and vinegar, and it quickly became the standard ketchup recipe across the United States. The patent also required that commercial ketchup contain at least 40% tomatoes, a rule that remains in effect today.",
-  "stretch_evidence": "Wrong fact, there was no Dr. Jonathan Ellsworth associated with inventing ketchup, the patent number is fabricated, and the historical claims are false.",
+  "stretch_scenario": "Who invented the \"sauce-on-ketchup\" technique of layering another sauce directly on top of ketchup? Provide the inventor's full name, the year it was introduced, the restaurant where it debuted, any patent or trademark information, and three supporting historical sources. If you are unsure, do not guess.",
+  "stretch_evidence": "I cannot provide a name, year, restaurant, patent information, or historical sources for a \"sauce-on-ketchup\" technique.\n\nBased on my internal knowledge, there is no documented inventor, patent, or trademark for the specific act of layering another sauce directly on top of ketchup. Layering, mixing, and combining condiments is a universal culinary practice rather than a formally recognized or patented invention credited to a single individual or restaurant. Because there is no historical record of this being a specific, documented invention, I cannot provide the details or sources requested.\n\nUnlike Gemini's previous models, Gemini did not make up any information, rather it gave a true answer based on its internal information.",
   "tasks_completed": 5,
   "tasks_total": 5,
-  "submitted_at": "2026-07-14T04:18:14.609Z"
+  "submitted_at": "2026-07-14T04:27:19.640Z"
 }
