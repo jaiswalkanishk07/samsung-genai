@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Kanishk Jaiswal",
+  "github": "jaiswalkanishk07",
+  "lab1_scenario": "B",
+  "lab1_prompt": "You're a competitive intelligence analyst on Samsung's mobile product strategy team, specializing in tracking foldable phone launches from competitors.\n\nSummarize today's foldable phone launch from a competitor so a Samsung product manager can quickly grasp what it means for the Galaxy Z Fold roadmap.\n\nContext: Competitor \"Halcyon Mobile\" just unveiled the Halcyon Fold 3 at a press event. Key facts: price (vs. Samsung Galaxy Z Fold 6 at 1.5 lakh); new hinge marketed as \"crease-free\"; 5,000 mAh battery (Samsung's is 4,400 mAh); bundles a stylus at no extra cost; ships in 6 weeks, US and South Korea first. This brief is for an internal roadmap review, not external use.\n\nConstraints: Under 120 words total. Must include the price gap vs. Galaxy Z Fold 6 and the single feature most likely to pressure Samsung's next hinge/battery decisions. Do not speculate about Samsung's response or recommend any action — this is a factual brief, not a strategy memo.\n\nTone: Neutral and analytical, like an internal competitive intel report — no marketing adjectives (\"revolutionary,\" \"game-changing\"), no hype, just facts and their implications.\n\nOutput format: Exactly 3 bullet points, no intro or closing sentence. Bullet 1: what was announced. Bullet 2: the standout differentiator. Bullet 3: why it matters for Samsung's roadmap.",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 2,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "Claude and ChatGPT gave a step by step procedure to calculate it:\n\nHere's the calculation:\nStart: 4,200 units\nStep 1 — Sends out 850:\n4,200 − 850 = 3,350\nStep 2 — Holds 6% of remaining stock:\n6% of 3,350 = 201 (held back, not available)\n3,350 − 201 = 3,149\nStep 3 — Restocks 1,150:\n3,149 + 1,150 = 4,299\nAvailable for sale by end of day: 4,299 units\n\n\nGemini decided to give a Python program:\n\nstart = 4200\nsent = 850\nremaining = start - sent\nheld = remaining * 0.06\navailable_before_restock = remaining - held\nrestock = 1150\nfinal_available = available_before_restock + restock\n\nprint(f\"Remaining: {remaining}\")\nprint(f\"Held: {held}\")\nprint(f\"Available before restock: {available_before_restock}\")\nprint(f\"Final available: {final_available}\")",
+  "lab2_cot_prompt": "Reason step by step before giving a final number. Work through this one step at a time: first compute the shipment, then the hold, then the restock. Show each step, then state the final answer.",
+  "lab2_cot_output_summary": "All three explained the process sentence by sentence.",
+  "better_approach": "cot",
+  "stretch_done": true,
+  "stretch_react_prompt": "You are an autonomous agent with access to external tools. Solve the task by repeatedly following this loop until the task is complete: \n(1) determine your current objective\n(2) identify what information is missing or uncertain\n(3) decide whether reasoning alone is sufficient or whether a tool is required\n(4) if a tool is required, invoke the single most appropriate tool and use only its returned output as new evidence\n(5) update your understanding and repeat. \nNever simulate tool execution, fabricate observations, or infer results that should come from a tool. If no available tool can obtain the required information, explicitly state which tool is missing and why you cannot proceed further. Base your final answer only on your reasoning and verified tool observations.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T10:21:47.375Z"
+}
