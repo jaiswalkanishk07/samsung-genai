@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "student_name": "Kanishk Jaiswal",
+  "github": "jaiswalkanishk07",
+  "ir_hallucination_done": true,
+  "ir_bias_done": true,
+  "ir_guardrail_builder_done": true,
+  "ir_battle_complete": true,
+  "ir_battle_blocked": 8,
+  "ir_battle_total": 8,
+  "rag_scenario": "A",
+  "rag_no_rag_summary": "All three said it would not be covered under the standard warranty, and it was completely confident and right about it. Gemini and ChatGPT suggested it would look for 3rd party vendors upon user request",
+  "rag_grounded_summary": "ChatGPT and Claude queried for additional context of whether the customer has an active Care+ plan, and all the LLMs suggested a suitable reply to customer.",
+  "rag_judgement": "confirmed_right",
+  "stretch_done": true,
+  "stretch_notes": "Decided to provide a hypothetical refund scenario to Gemini:\n\nDocument: Electronics purchased in-store or online may be returned within 30 days of purchase for a full refund, provided the item is unopened. Opened electronics are eligible for store credit only, not a cash/card refund, within the same 30-day window. After 30 days, no returns or exchanges are accepted regardless of item condition.\n\nScenario: A customer opened their headphones, tried them for a day, and wants to return them on day 12 for a refund to their card.\n\nNo RAG: The short answer is: It depends entirely on where they bought them, but at 12 days, it is highly possible.\nBecause the customer is on day 12, they are within the standard 14-to-30-day return window offered by most mainstream retailers. However, because the headphones have been opened and tried, the store's specific policy regarding \"change of mind\" on opened electronics will be the deciding factor.\n\nRAG:\nBased on the store policy, the customer is not eligible for a refund to their card, but they can still return the item.\nYou should inform the customer that because the headphones have been opened, you cannot issue a refund to their card. However, since they are within the 30-day return window, you can gladly accept the return and issue them a full store credit.\n\nConclusion: No RAG creates uncertainty and thus model provides an inconclusive answer, RAG response provides certainty based on given policy.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15T07:04:50.234Z"
+}
