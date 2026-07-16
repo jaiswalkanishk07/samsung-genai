@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Kanishk Jaiswal",
+  "github": "jaiswalkanishk07",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Accountability",
+      "justification": "The given failure directs a misinformation of a discount that never existed. As such, the support bot caused an accountability violation for the company, which the company had to fulfil to stay in public favor."
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "The given case reflects a violation of employee privacy and trust."
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Reliability",
+      "justification": "A deepfake scenario will cause trust and reliability issues over digital media."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "This case strongly suggests a gender bias/discrimination on the basis of fairness of employment for those who attended women's college."
+    },
+    {
+      "id": "E",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Human Oversight",
+      "justification": "Human oversight is necessary to prevent such case. As such, the moderation system was biased towards a community's group posts and discriminated against it."
+    },
+    {
+      "id": "F",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Security",
+      "justification": "Human oversight and security among inner verification of financial transfers is of utmost importance."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Amazon (AI Recruiting Tool)",
+  "stretch_failure_type": "Bias/Discrimination",
+  "stretch_principle": "Inclusiveness",
+  "stretch_notes": "Around 2014, Amazon began building an AI tool to automatically screen job applicants' resumes. However, the model was trained on 10 years of historical hiring data, a period during which the tech industry was overwhelmingly male. Consequently, the AI taught itself that male candidates were preferable. It actively penalized resumes that included the word \"women's\" and downgraded graduates from two all-women's colleges. Despite engineers' attempts to manually edit the algorithm to be neutral, they couldn't guarantee it wouldn't find other proxy variables for gender. Amazon ultimately scrapped the project in 2018, demonstrating how AI can scale and automate historical human prejudices.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:28:34.655Z"
+}
